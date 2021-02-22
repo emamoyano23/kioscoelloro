@@ -77,6 +77,10 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="img\imagen1.jpg" />
+    <Content Include="img\imagen2.jpg" />
+    <Content Include="img\imagen3.jpg" />
+    <Content Include="img\imagen4.jpg" />
     <Content Include="img\loro.png" />
     <Content Include="img\loro170.png" />
     <Content Include="img\loro200.png" />

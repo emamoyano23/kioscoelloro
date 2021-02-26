@@ -1,0 +1,213 @@
+﻿* {
+    font-family: 'Exo 2'
+}
+
+@font-face {
+    font-family: "WebSymbolsRegular";
+    src: url(../fonts/websymbols-regular-webfont.eot);
+    src: url(../fonts/websymbols-regular-webfont.eot#iefix) format('embedded-opentype'), url(../fonts/websymbols-regular-webfont.woff) format('woff'), url(../fonts/websymbols-regular-webfont.ttf) format('truetype'), url(../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    font-family: WebSymbolsRegular;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+
+.header {
+    display: block;
+    float: left;
+    width: 100%;
+    border-radius: 4px;
+}
+
+    .header div {
+        display: block;
+        float: left;
+    }
+
+.header-buttton {
+    padding-bottom: 10px;
+}
+
+.header-buttton {
+    margin-left: 220px;
+}
+
+.menu {
+    display: block;
+    float: none;
+    width: 100%;
+}
+
+    .menu ul li {
+        float: left;
+        text-align: center;
+        margin-left: 30px;
+        list-style: none;
+        border-right: 1px solid #cccccc;
+        padding-right: 25px;
+    }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+            .menu ul li a:hover {
+                cursor: pointer;
+                color: orange;
+            }
+
+        .menu ul li:hover {
+            cursor: pointer;
+            color: orange;
+        }
+
+    .menu > ul > li > a {
+        list-style: none;
+    }
+
+    /**/
+    .menu > ul > li > ul {
+        display: none;
+        margin-left: -60px;
+        position: absolute;
+        width: 200px;
+        box-shadow: 0px 2px 1px gray;
+        z-index: 5;
+    }
+
+    .menu > ul > li:hover > ul {
+        display: block;
+        color: black;
+    }
+
+        .menu > ul > li:hover > ul > li {
+            background-color: white;
+            padding: 5px;
+            line-height: 30px;
+            font-size: 13px;
+            width: 200px;
+        }
+
+            .menu > ul > li:hover > ul > li a {
+                color: black;
+            }
+
+            .menu > ul > li:hover > ul > li:hover {
+            }
+
+            .menu > ul > li:hover > ul > li a:hover {
+                color: white;
+            }
+
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tel {
+    font-size: 20px;
+    margin-top: 130px;
+}
+
+    .tel a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .tel a:hover {
+            text-decoration: none;
+            color: green;
+        }
+
+.header-top {
+    width: 100%;
+    background-color: #337400;
+    color: white;
+    font-family: Bahnschrift;
+    height: 40px;
+    color: black;
+}
+
+.bighr {
+    background-color: #b2b2b2 !important;
+    color: gray !important;
+    border: none !important;
+    height: 2px !important;
+}
+
+.header-top ul li {
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+    .header-top ul li a {
+        list-style: none;
+    }
+
+.menu > ul > li:last-child {
+    list-style: none;
+    margin-top: -8px;
+    border: none;
+}
+
+.menu > ul > li:nth-child(4) {
+    list-style: none;
+    margin-top: -5px;
+    border: none;
+}
+
+.qq {
+    padding-top: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #337400;
+    color: white;
+    overflow: hidden;
+}
+
+.redes ul li {
+    float: right;
+    margin-right: 10px;
+}
+
+    .redes ul li a {
+        color: white;
+        line-height: -4px;
+        float: right;
+        font-size: 15px;
+    }
+
+.correo ul li a {
+    color: white;
+    line-height: -4px;
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.correo > ul > li > a:hover {
+    color: greenyellow;
+}
+.redes > ul > li > a:hover {
+    color: greenyellow;
+}
+
+
+.botones {
+    margin-top: 120px;
+}
